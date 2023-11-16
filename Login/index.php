@@ -48,8 +48,8 @@
     </div>
  </form>
 
- <script src="boto.js"></script>
 
+ <script src="boto.js"></script>
     <footer >
         <div class="titulo-final">
             <h2>Instituto Tecnológico de Tlalnepantla<br>&copy; 2023 Todos los derechos reservados </h2>
