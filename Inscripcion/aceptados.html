@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Aspirantes</title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="img/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+        <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <section class="iconos_container">
+        <div class="imgicono"> <img src="img/pleca-gob.jpeg" width="800" height="120"/></div>
+    </div>
+    <div class="icon-direccion col-md-4 col-lg-4 col-xl-4 ">
+    <div class="row_iconhead">
+    <a href='https://login.microsoftonline.com/' target='new'><span class='iconsp' title='Correo'><img src="img/correo.svg" alt=""><i class='fa fa-envelope' aria-hidden='true'></i></span></a>
+    <a href='#' target='new'><span class='iconsp' title='Calendario'><img src="img/calendar.svg" alt="" style="color: white;"><i class='fa fa-calendar' aria-hidden='true'></i></span></a>
+    <a href='https://www.tlalnepantla.tecnm.mx/directorio/' target='new'><span class='iconsp' title='Directorio'><img src="img/contacto.svg" alt=""><i class='fa fa-contact' aria-hidden='true'></i></span></a>
+    <!-- <a href='https://www.tlalnepantla.tecnm.mx/' target='new'><span class='iconsp' title='TecNM ITTLA'><img src="img/pagittla.svg" alt=""><i class='fa fa-ittla' aria-hidden='true'></i></span></a>   -->
+    <a href='http://sii.ittla.edu.mx/' target='new'><span class='iconsp' title='Sii'><img src="img/sii.svg" alt=""><i class='fa fa-sii' aria-hidden='true'></i></span></a>
+    <span class="iconsp"  title="Acesibilidad"><i class="fa fa-eye-slash" aria-hidden="true"></i></span>
+    <span class="iconsp ojorojo" id="redne"  title="Contraste"><i class="fa fa fa-adjust" aria-hidden="true"></i></span>
+    </div>
+    </div>
+        </section>
+</header>
+
+<div class="content">
+    <h1 class="logo">Lista de <span>Aspirantes</span></h1>
+    <div class="contact-wrapper">
+        <div class="contact-form">
+            <!-- <h3>DATOS PERSONALES</h3> -->
+            <form action="#" method="post">
+                <section class="flex-box block">
+                    <div class="custom-combobox">
+                        <label for="">Maestria:</label>
+                        <input type="text" placeholder="Selecciona" class="combo-input" readonly required>
+                        <ul class="combo-list">
+                          <li>Doctorado en Ciencias de la ingeniería</li>
+                          <li>Maestria en Ciencias de la ingeniería </li>
+                          <li>Maestria en Administración</li>
+                        </ul>
+                      </div>
+                </section>
+                <section>
+                    <label for="">Fecha de Inscripción</label>
+                    <input type="date" id="start" name="trip-start" min="2022-01-01" max="#" />
+                </section>
+
+                  <div class="altas block-dt">
+                    <table>
+                        <tr class="table-title">
+                            <th class="check"></th>
+                            <th class="check tbl"></th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Nombre(s)</th>
+                            <th>Telefono</th>
+                            <th>Correo electronico</th>
+                            <th>Categoria Interno/Externo</th>
+                        </tr>
+                        <tr>
+                            <td><a class="ponter"><img src="img/delete.png" alt="delete" width="20px"></a></td>
+                            <td class="tbl ponter"> <input type="checkbox" name="aceptar" value="1"></td>
+                            <td><div class="content-div">Hernández</div></td>
+                            <td><div class="content-div">Zavala</div></td>
+                            <td><div class="content-div">David Tonatiuh</div></td>
+                            <td><div class="content-div">56 8967 7892</td>
+                            <td><div class="content-div">088765723@tecnologico.tecnm.mx</div></td>
+                            <td><div class="content-div">Int</div></td>
+                        </tr>
+                        <tr>
+                            <td><a class="ponter"><img src="img/delete.png" alt="delete" width="20px"></a></td>
+                            <td class="tbl ponter"><input type="checkbox" name="aceptar" value="1"></td>
+                            <td><div class="content-div">Sanchez</div></td>
+                            <td><div class="content-div">Vidal</div></td>
+                            <td><div class="content-div">Manuel</div></td>
+                            <td><div class="content-div">55 0000 4563</td>
+                            <td><div class="content-div">sanchez@outlook.com.mx</td>
+                            <td><div class="content-div">Int</div></td>
+                        </tr>
+                        <tr>
+                            <td><a class="ponter"><img src="img/delete.png" alt="delete" width="20px"></a></td>
+                            <td class="tbl ponter"><input type="checkbox" name="aceptar" value="1"></td>
+                            <td><div class="content-div">Ramirez</div></td>
+                            <td><div class="content-div">Sandoval</div></td>
+                            <td><div class="content-div">Laura</div></td>
+                            <td><div class="content-div">56 8967 7892</td>
+                            <td><div class="content-div">ramirez@tecnologico.tecnm.mx</td>
+                            <td><div class="content-div">Ext</div></td>
+                        </tr>
+                    </table>
+                  </div>
+                  <br>
+                  <section class="block-btn">
+                      <button type="submit" class="btn-submit" >
+                          <a href="alta.html">Generar Lista</a>
+                      </button>
+                  </section>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+    <!--Pie de Pagina-->
+    <!-- <footer>
+        <div class="titulo-final">
+            <h1>Tecnologico Nacional de México</h1>
+            <h2>&copy;2023 Instituto Tecnologico de Tlalnepnatla</h2>
+            <p>Av. Instituto Tecnológico s/n, La Comunidad, 54070 Tlalnepantla de Baz, Méx.</p>
+            <p>Esta página es una obra intelectual protegida por la Ley Federal del Derecho de Autor, puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica; su uso para otros fines, requiere autorización previa y por escrito del Director del Instituto Tecnológico de Tlalnepantla.</p>
+        </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img src="https://www.tlalnepantla.tecnm.mx/img/footer/tecnmn.png" class="img-responsive">
+            </div>
+    </footer> -->
+</body>
+ <script>
+    const input = document.querySelector(".combo-input");
+    const list = document.querySelector(".combo-list");
+
+    input.addEventListener("click", function () {
+        list.style.display = "block";
+    });
+
+    list.addEventListener("click", function (e) {
+        if (e.target.tagName === "LI") {
+            input.value = e.target.textContent;
+            list.style.display = "none";
+        }
+        e.stopPropagation(); // Evitar que el clic en el menú se propague al documento
+    });
+
+    // Event listener para cerrar el menú al hacer clic fuera de él
+    document.addEventListener("click", function (e) {
+        if (e.target !== input) {
+            list.style.display = "none";
+        }
+    });
+ </script>
+</html>

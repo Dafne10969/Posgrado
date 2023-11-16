@@ -1,0 +1,168 @@
+    <!DOCTYPE html>
+    <html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Calendario</title>
+        <link rel="stylesheet" href="calendar.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+        <script src="calendar.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    </head>
+
+    <body>
+    <header2>
+        <section class="iconos_container">
+            <div class="imgicono"> <img src="union.png" width="900" height="100"/></div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+
+                <div class="row_iconhead">
+                    <a href='https://login.microsoftonline.com/' target='new'><span class='iconsp' title='Correo'><img src="img/correo.svg" alt=""><i class='fa fa-envelope' aria-hidden='true'></i></span></a>
+                    <a href='#' target='new'><span class='iconsp' title='Calendario'><img src="img/calendar.svg" alt="" style="color: white;"><i class='fa fa-calendar' aria-hidden='true'></i></span></a>
+                    <a href='https://www.tlalnepantla.tecnm.mx/directorio/' target='new'><span class='iconsp' title='Directorio'><img src="img/contacto.svg" alt=""><i class='fa fa-contact' aria-hidden='true'></i></span></a>
+                    <a href='https://www.tlalnepantla.tecnm.mx/' target='new'><span class='iconsp' title='TecNM ITTLA'><img src="img/pagittla.svg" alt=""><i class='fa fa-ittla' aria-hidden='true'></i></span></a>
+                    <a href='http://sii.ittla.edu.mx/' target='new'><span class='iconsp' title='Sii'><img src="img/sii.svg" alt=""><i class='fa fa-sii' aria-hidden='true'></i></span></a>
+                    <span class="iconsp"  title="Acesibilidad"><i class="fa fa-eye-slash" aria-hidden="true"></i></span>
+                    <span class="iconsp ojorojo" id="redne"  title="Contraste"><i class="fa fa fa-adjust" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div id="header">
+			<ul class="nav">
+				<li><a href="">Inicio</a></li>
+				<li><a href="">Servicios</a>
+					<ul>
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a>
+
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Acerca de</a>
+					<ul>
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a></li>
+					</ul>
+				</li>
+				<li><a href="">Contacto</a></li>
+			</ul>
+		</div>-->
+
+        <nav class="menu">
+            <section class="menu__container">
+                <h1 class="menu__logo">MENU</h1>
+
+                <ul class="menu__links">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Inicio</a>
+                    </li>
+
+                    <li class="menu__item menu__item--show">
+                        <a href="#" class="menu__link">Alumnos<img src="arrow.svg" class="menu__arrow"></a>
+
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Inscripcións</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Asiganción de Tesis</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Gestión del curso</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Vinculación</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Sustentación</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Seguimiento a Egresados</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Proyectos</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link">Docentes<img src="arrow.svg" class="menu__arrow"></a>
+
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Curriculum</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link">Articulos<img src="arrow.svg" class="menu__arrow"></a>
+
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Gestión de Articulos</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Mi Calendario</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Cerrar sesión</a>
+                    </li>
+
+                </ul>
+
+                <div class="menu__hamburguer">
+                    <img src="menu.svg" class="menu__img">
+                </div>
+            </section>
+        </nav>
+    </header2>
+
+
+
+    <div class="wrapper">
+        <header>
+            <p class="current-date"></p>
+            <div class="icons">
+                <span id="prev" class="material-symbols-rounded">chevron_left</span>
+                <span id="next" class="material-symbols-rounded">chevron_right</span>
+            </div>
+        </header>
+
+        <div class="calendar">
+            <ul class="weeks">
+                <li>Lun</li>
+                <li>Mar</li>
+                <li>Mié</li>
+                <li>Jue</li>
+                <li>Vie</li>
+                <li>Sab</li>
+                <li>Dom</li>
+            </ul>
+            <ul class="days"></ul>
+        </div>
+    </div>
+    <button type="button" class="Al">Mostrar alerta</button>
+    <div class="alert hide">
+        <span class="fas fa-exclamation-circle"></span>
+        <span class="msg">ALERTA: Este mensaje es de prueba!</span>
+        <div class="close-btn">
+            <span class="fas fa-times"></span>
+
+        </div>
+    </div>
+    <script src="boto.js"></script>
+    </body>
+
+    </html>
