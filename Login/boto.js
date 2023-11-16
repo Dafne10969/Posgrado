@@ -24,5 +24,6 @@ function validarFormulario() {
 
   // Continúa con el envío del formulario si la contraseña es correcta
   return true;
+  
 }
 
